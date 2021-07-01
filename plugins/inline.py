@@ -76,7 +76,7 @@ def get_reply_markup(username, query):
         InlineKeyboardButton('Search again', switch_inline_query_current_chat=query),
                         ],
         [
-        InlineKeyboardButton('👉 Join starlabs channel 👈', url='t.me/TGMovies254'),
+        InlineKeyboardButton('👉 Join starlabs channel 👈', url='t.me/TGstarlabs'),
     ]]
     return InlineKeyboardMarkup(buttons)
 
