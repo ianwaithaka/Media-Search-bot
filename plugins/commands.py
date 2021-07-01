@@ -22,6 +22,7 @@ async def start(bot, message):
                                     ],
         [
         InlineKeyboardButton('👉 Join starlabs channel 👈', url='t.me/TGstarlabs'),
+        InlineKeyboardButton('Request App/software', url='t.me/TGStarLabsBot'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
